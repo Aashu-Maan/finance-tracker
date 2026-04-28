@@ -1,0 +1,22 @@
+#summary {
+    background-color: #1e293b;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
+@media (max-width: 480px) {
+    #summary {
+        padding: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #summary h4 {
+        font-size: 18px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #summary h4 {
+        font-size: 20px;
+    }
+}

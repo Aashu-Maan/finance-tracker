@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    background-color: #0f172a;   /* Dark navy */
+    color: #f1f5f9;  /* white-ish */
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+}

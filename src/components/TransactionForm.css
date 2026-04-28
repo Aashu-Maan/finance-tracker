@@ -1,0 +1,51 @@
+#transaction-form {
+    background-color: #1e293b;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.form-inputs {
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+button[type="submit"] {
+    padding: 10px;
+    background-color:#4f46e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+@media (max-width: 400px) {
+    #transaction-form {
+        padding: 10px;
+    }
+    #transaction-form h1 {
+        font-size: 20px;
+    }   
+    form {
+        width: 90%;
+    }
+    .form-inputs {
+        width: 85%;
+        padding: 6px;
+    }
+    button[type="submit"] {
+        width: 85%;
+        padding: 6px;
+    }
+}
